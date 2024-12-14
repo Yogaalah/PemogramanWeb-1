@@ -1,0 +1,32 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.foto img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    margin-left: 45px;
+}
+
+.foto .foto1 {
+   
+    transition: 0.3s;
+    color: black;
+}
+.foto .foto2 {
+   
+    transition: 0.3s;
+    color: black;
+}
+.foto .foto3 {
+   
+    transition: 0.3s;
+    color: black;
+}
+.foto .foto4 {
+   
+    transition: 0.3s;
+    color: black;
+}

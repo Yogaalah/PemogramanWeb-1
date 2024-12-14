@@ -1,0 +1,207 @@
+body {
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#header {
+    background-color: burlywood;
+    text-align: center;
+    height: 170px;
+}
+
+#header h1 {
+    color: blue;
+}
+
+#header blockquote{
+    background-color: yellow;
+    font-size: 25px;
+    text-align: center;
+    border-top: 2px dotted black;
+    border-left: 2px dotted black;
+}
+
+.center {
+    text-align: center;
+    font-size: 20px;
+}
+
+#gambar {
+    text-align: center;
+}
+
+.gambar1 {
+    width: 300px;
+    height: 300px;
+}
+.gambar2 {
+    width: 300px;
+    height: 290px;
+}
+
+.isi {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: fit-content;
+}
+
+.isi .b {
+    font-size: 50px;
+    color: blue;
+}
+
+.isi .jawa {
+    color: darkred;
+}
+
+#profil {
+    font-size: 35px;
+    height: 650px;
+}
+
+#profil  h3{
+    font-size: 50px;
+}
+
+#beternak {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 730px;
+}
+
+#beternak h3{
+    font-size: 50px;
+}
+
+#beternak ol li {
+    font-size: 20px;
+}
+
+.koleksi img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+.promo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkblue;
+    text-align: center;
+    border: 1px solid #000;
+    width: 700px;
+    margin: 20px auto;
+    color: aliceblue;
+    height: 300px;
+}
+
+.promo .shop {
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.promo ol li a{
+    color: aliceblue;
+}body {
+    background-color: rgb(burlywood);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#header {
+    background-color: burlywood;
+    text-align: center;
+    height: 170px;
+}
+
+#header h1 {
+    color: blue;
+}
+
+#header blockquote{
+    background-color: yellow;
+    font-size: 25px;
+    text-align: center;
+    border-top: 2px dotted black;
+    border-left: 2px dotted black;
+}
+
+.center {
+    text-align: center;
+    font-size: 20px;
+}
+
+#gambar {
+    text-align: center;
+}
+
+.gambar1 {
+    width: 300px;
+    height: 300px;
+}
+.gambar2 {
+    width: 300px;
+    height: 290px;
+}
+
+.isi {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: fit-content;
+}
+
+.isi .b {
+    font-size: 50px;
+    color: blue;
+}
+
+.isi .jawa {
+    color: darkred;
+}
+
+#profil {
+    font-size: 35px;
+    height: 650px;
+}
+
+#profil  h3{
+    font-size: 50px;
+}
+
+#beternak {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 730px;
+}
+
+#beternak h3{
+    font-size: 50px;
+}
+
+#beternak ol li {
+    font-size: 20px;
+}
+
+.koleksi img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+.promo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkblue;
+    text-align: center;
+    border: 1px solid #000;
+    width: 700px;
+    margin: 20px auto;
+    color: aliceblue;
+    height: 300px;
+}
+
+.promo .shop {
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.promo ol li a{
+    color: aliceblue;
+}

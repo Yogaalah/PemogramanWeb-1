@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+        <script>
+        function jumlahkan() {
+            let x = parseFloat(document.getElementById("bill").value);
+            let y = parseFloat(document.getElementById("bill2").value);
+            let z = 0;
+            
+            if (document.getElementById("tambah").checked){
+                z = x + y;
+            }
+            else if (document.getElementById("kurang").checked){
+             z = x - y;
+            }
+            if (document.getElementById("bagi").checked){
+            z = x / y;
+            }
+            else if (document.getElementById("Kali").checked){
+            z = x * y;
+            }
+
+        document.getElementById("hasil").innerHTML = z;
+     }
+
+        </script>
+</head>
+<body>
+<h2>Kalkulator Sederhana</h2>
+    <form action="">
+        bilangan 1: <input type="text" id="bill">
+        <br>
+        bilangan 2: <input type="text" id="bill2">
+        <br>
+        pilih Operasi Aritmatika
+        <input type="radio" name="ht" id="tambah">+
+        <input type="radio" name="ht" id="kurang">-
+        <input type="radio" name="ht" id="bagi">/
+        <input type="radio" name="ht" id="kali">x
+        <br>
+        <input type="Button" value="Hasil" onclick="jumlahkan()">
+        <br>
+        Hasil Perjumlahan: <span id="Hasil"></span>
+</form>    
+</body>
+</html>
